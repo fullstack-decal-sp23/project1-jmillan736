@@ -1,0 +1,34 @@
+* {
+    font-weight: 500;
+    /*border: 1px solid; */
+  }
+
+/*
+    Home Page Styling
+*/
+
+.home-container {
+    background-color: white;
+}
+.home-headline {
+    height: 500px;
+    font-size: 48px;
+    text-align: center;
+}
+.home-subheadline {
+    font-size: large;
+}
+.home-projects {
+    background-color: white;
+}
+.home-project {
+    background-color: rgb(228,228,228);
+    padding: 8px;
+    border: transparent solid 8px;
+    border-radius: 10px;
+    margin: 8px;
+}
+
+
+
+

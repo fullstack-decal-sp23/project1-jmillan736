@@ -1,0 +1,29 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+}
+/*
+    Only for navbar stuff
+*/
+
+.navbar {
+    background-color: rgb(228,228,228);
+    height: 44px;
+    padding: 8px 16px;
+}
+.navbar--fixed-top {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar-items {
+    align-items: center;
+    display: flex;
+    flex: 1;
+    min-width: 0;
+    height: 100%;
+}
+.navbar-items > * {
+    margin-left: 12px;
+    margin-right: 12px; /* Adjust the spacing as desired */
+}
